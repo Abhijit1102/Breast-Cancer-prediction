@@ -9,26 +9,26 @@ This project is an example of an ML project with a Flask app for deployment. It 
 
 The project has the following structure:
 
-src
-|-- init.py
-|-- logger.py
-|-- exception.py
-|-- utils.py
-|-- components
-|-- init.py
-|-- data_ingestion.py
-|-- data_transformation.py
-|-- model_trainer.py
-|-- pipelines
-|-- init.py
-|-- predict_pipeline.py
-|-- train_pipeline.py
-import_data.py
-setup.py
-notebooks
-requirements.txt
-javascript
-Copy code
+- `src`
+  -- `init.py`
+  -- `logger.py`
+  -- `exception.py`
+  -- `utils.py`
+  -- `components`
+  --  `init.py`
+  -- `data_ingestion.py`
+  -- `data_transformation.py`
+  -- `model_trainer.py`
+
+- `pipelines`
+  -- `init.py`
+  -- `predict_pipeline.py`
+  -- `train_pipeline.py`
+
+- `import_data.py`
+- `setup.py`
+- `notebooks`
+- `requirements.txt`
 
 The `src` directory contains the main source code files for the ML project. It includes the `logger.py` file for logging, the `exception.py` file for handling exceptions, and the `utils.py` file for utility functions.
 
@@ -82,14 +82,3 @@ Mention any acknowledgements or references for resources, code snippets, or fram
 
 Feel free to customize this README file to match the specifics of your ML project and Flask app deployment.
 
-
-
-
-Was this response better or worse?
-Better
-Worse
-Same
-
-
-
-Regenerate
