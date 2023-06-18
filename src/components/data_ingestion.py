@@ -30,12 +30,17 @@ class DataIngestion:
 
             df = pd.concat([X, pd.Series(y, name='target')], axis=1)
 
+            logging.info("Pandas DataFrame is Created")
+
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path), exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path, index=False)
 
             logging.info("Raw data is created")
 
             train_set, test_set = train_test_split(df, test_size=0.30, random_state=42)
+            
+            logging.info("DataFrame is splited into training set and test set")
+
             train_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
             test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
 
