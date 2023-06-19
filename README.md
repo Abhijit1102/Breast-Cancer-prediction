@@ -1,6 +1,6 @@
-# sklearn-Diabetes-Deployment
+#  End-to-End Modular Machine Learning Breast Cancer Prediction Project
 
-The sklearn-Diabetes-Deployment project deploys a diabetes prediction model using Flask for efficient disease management.
+The End-to-End Modular Machine Learning Breast Cancer Prediction Project is a comprehensive solution designed to accurately classify breast cancer cases with an impressive classification accuracy of 99.45%. Following industry standards, the project encompasses various modules that work together seamlessly to provide a robust and efficient prediction system.
 
 ## Project Description
 
