@@ -22,7 +22,7 @@ class DataImporter:
             X = pd.DataFrame(data=dataset.data, columns=dataset.feature_names)
             y = dataset.target
 
-            logging.info("Data import process completed.")
+            logging.info("Data import process completed")
             return X, y
 
         except Exception as e:

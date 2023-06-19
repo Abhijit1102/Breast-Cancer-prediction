@@ -2,5 +2,9 @@ numpy
 pandas
 matplotlib
 scikit-learn
+xgboost
+catboost
+lightgbm
+Flask
 
--e .
+#-e .

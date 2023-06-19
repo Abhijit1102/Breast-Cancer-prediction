@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Prediction Result</h1>
+        <p>The predicted value is: {{ prediction_result }}</p>
+        {% if prediction_result == 0 %}
+            <p>The predicted value suggests no symptoms of Breast Cancer.</p>
+        {% else %}
+            <p>The predicted value suggests presence of Breast Cancer symptoms.</p>
+        {% endif %}
+    </div>
+</body>
+</html>
