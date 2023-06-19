@@ -1,10 +1,8 @@
 #  End-to-End Modular Machine Learning Breast Cancer Prediction Project
 
-The End-to-End Modular Machine Learning Breast Cancer Prediction Project is a comprehensive solution designed to accurately classify breast cancer cases with an impressive classification accuracy of 99.45%. Following industry standards, the project encompasses various modules that work together seamlessly to provide a robust and efficient prediction system.
-
 ## Project Description
 
-This project aims to deploy a machine learning model for predicting diabetes using the sklearn library. The model is trained on a diabetes dataset and provides predictions based on the input features. The Flask framework is used to create a web application that allows users to interact with the model and obtain predictions.
+The End-to-End Modular Machine Learning Breast Cancer Prediction Project is a comprehensive solution designed to accurately classify breast cancer cases with an impressive classification accuracy of 99.45%. Following industry standards, the project encompasses various modules that work together seamlessly to provide a robust and efficient prediction system.
 
 ## Project Structure
 
