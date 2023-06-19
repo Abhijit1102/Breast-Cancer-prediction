@@ -18,8 +18,7 @@
 <body>
     <div class="content">
         <h1>Prediction Result</h1>
-        <p>The predicted value is: {{ prediction_result }}</p>
-        {% if prediction_result == 0 %}
+        {% if prediction_result == 1 %}
             <p>The predicted value suggests no symptoms of Breast Cancer.</p>
         {% else %}
             <p>The predicted value suggests presence of Breast Cancer symptoms.</p>
