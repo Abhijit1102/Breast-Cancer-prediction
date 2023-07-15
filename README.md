@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The End-to-End Modular Machine Learning Breast Cancer Prediction Project is a comprehensive solution designed to accurately classify breast cancer cases with an impressive classification accuracy of 99.45%. Following industry standards, the project encompasses various modules that work together seamlessly to provide a robust and efficient prediction system.
+The End-to-End Modular Machine Learning Breast Cancer Prediction Project is a comprehensive solution designed to accurately classify breast cancer cases with an impressive classification accuracy of `99.45%`. Following industry standards, the project encompasses various modules that work together seamlessly to provide a robust and efficient prediction system.
 
 ## Project Structure
 
@@ -34,7 +34,7 @@ The project follows a specific folder structure:
 To deploy the ML project as a Flask app, follow these steps:
 
 1. Install the required dependencies by running the following command:
-- `pip install flask`
+- `pip install -r requirements.txt`
 
 
 3. Create a Flask app file, e.g., `application.py`, at the root of the project directory. In this file, you can define the Flask routes and use the ML components to handle requests and provide predictions.
